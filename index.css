@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root{
     --kuning: #FEF400;
     --abu-abu: #C1C1C1;
@@ -116,9 +118,12 @@ nav{
 /* NEWS */
 .news{
     width: 80%;
+    height: 90vh;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    align-items: center;
+    margin-top: 100px;
+    overflow: hidden;
 }
 
 .news-col{
@@ -140,6 +145,7 @@ nav{
     width: 100%;
     border-radius: 10px;
     transition: 1s;
+    height: 300px;
 }
 
 .news-col p{
